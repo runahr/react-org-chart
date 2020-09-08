@@ -14,7 +14,7 @@ function getTextForTitle(datum) {
   } = datum
   const pluralEnding = totalReports > 1 ? 's' : ''
 
-  return `${totalReports} supervisee${pluralEnding}`
+  return `Ver más (${totalReports})`
 }
 
 const departmentAbbrMap = {
